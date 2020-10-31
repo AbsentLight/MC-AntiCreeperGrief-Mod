@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "anticreepergrief",
+  "version": "${version}",
+  "name": "Anti Creeper Grief",
+  "description": "Disables block damage made by creeper explosions",
+  "authors": [
+    "Absent_Light"
+  ],
+  "contact": {
+    "website": "darke.xyz"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/anticreepergrief/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+    ]
+  },
+  "mixins": [
+    "anticreepergrief.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}

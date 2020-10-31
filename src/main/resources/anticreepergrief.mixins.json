@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.darke.anticreepergrief.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "server": [
+    "CreeperGriefDisableMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
